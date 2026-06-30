@@ -13,6 +13,33 @@ st.caption("Test app created from ChatGPT via GitHub connector.")
 
 st.divider()
 
+st.subheader("Van and Huey Jen")
+st.write("This section was added to test updating the Streamlit page from GitHub.")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+        ### Van
+        - Test profile card
+        - Added from ChatGPT
+        - Part of Project 008
+        """
+    )
+
+with col2:
+    st.markdown(
+        """
+        ### Huey Jen
+        - Test profile card
+        - Added from ChatGPT
+        - Part of Project 008
+        """
+    )
+
+st.divider()
+
 st.subheader("Hover icon test")
 st.write(
     "Below is a Streamlit-friendly hover icon demo inspired by Its Hover. "
